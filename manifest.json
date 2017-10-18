@@ -1,0 +1,26 @@
+{
+  "name": "CubbyChaser",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Get pages source send HTML to CubbyChaser server to crate a session.",
+  "author": "Alex and Bryce WedgeNix",
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "assets/images/cubbyChromeSmall.png",
+    "48": "assets/images/cubby.png",
+    "128": "assets/images/cubby.png"
+  },
+  "background": {
+    "scripts": [
+      "assets/js/background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>",
+    "cubbychaser.herokuapp.com*"
+  ]
+}
