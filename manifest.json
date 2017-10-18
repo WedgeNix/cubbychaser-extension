@@ -5,6 +5,7 @@
   "description": "Get pages source send HTML to CubbyChaser server to crate a session.",
   "author": "Alex and Bryce WedgeNix",
   "page_action": {
+    "default_icon": "assets/images/cubby.png",
     "default_popup": "popup.html"
   },
   "icons": {
